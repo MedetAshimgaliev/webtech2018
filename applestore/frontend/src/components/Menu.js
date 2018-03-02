@@ -13,6 +13,7 @@ import {
 } from 'react-router-dom'
 import Switch from 'react-router-dom/Switch';
 import Login from '../Login';
+import Registration from '../Registration';
 
 
 class Menu extends Component {
@@ -45,9 +46,9 @@ class Menu extends Component {
                 <Link to ="/Login"><ListItem primaryText="Log in" rightIcon={<i class="material-icons">account_circle</i>}/></Link>
                 <ListItem primaryText="Register" rightIcon={<i class="material-icons">fiber_new</i>}/>
               </List>
-                <Switch>
-                  <Route path="/Login" component={Login}/>
-                </Switch>
+                  <Switch>
+                    <Route path="/Login" component={Registration}/>
+                  </Switch>
               </div>
             </Router>
             <Divider />
