@@ -5,6 +5,7 @@ import App from './App';
 import Login from './Login';
 import Registration from './Registration';
 import Smartphones from './Smartphones';
+import Tablets from './Tablets';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -14,8 +15,9 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 ReactDOM.render(
     <MuiThemeProvider>
-        <Smartphones />
-        {/* <App /> */}
+        {/* <Tablets /> */}
+        {/* <Smartphones /> */}
+        <App />
         {/* <Login /> */}
         {/* < Registration /> */}
     </MuiThemeProvider>

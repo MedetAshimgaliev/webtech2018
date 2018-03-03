@@ -24,27 +24,27 @@ const styles = {
   const tilesData = [
     { 
       img: 'https://pp.userapi.com/c841328/v841328702/73cad/8v-OQyGq9EU.jpg',
-      title: 'Breakfast',
+      title: 'Great Store!',
       author: 'jill111',
     },
     {
       img: 'https://pp.userapi.com/c841328/v841328702/73c9f/krGUn8XWmWU.jpg',
-      title: 'Honey',
+      title: 'Unique Designs!',
       author: 'fancycravel',
     },
     {
       img: 'https://pp.userapi.com/c841328/v841328702/73ca6/_39uAxN7HTs.jpg',
-      title: 'Vegetables',
+      title: 'Fantastic Quality!',
       author: 'jill111',
     },
     {
       img: 'https://pp.userapi.com/c841328/v841328702/73c98/hS_EagmaxqA.jpg',
-      title: 'Water plant',
+      title: 'Quick Delivery',
       author: 'BkrmadtyaKarki',
     },
     {
       img: 'https://pp.userapi.com/c841328/v841328702/73c98/hS_EagmaxqA.jpg',
-      title: 'Water plant',
+      title: 'Great stuff workers',
       author: 'BkrmadtyaKarki',
     },
   ];
@@ -53,6 +53,7 @@ class Cards extends Component{
     render(){
         return(
             <div style={styles.root}>
+            <h2>Why people choose us?</h2>
                 <GridList style={styles.gridList} cols={2.2}>
                 {tilesData.map((tile) => (
                     <GridTile
